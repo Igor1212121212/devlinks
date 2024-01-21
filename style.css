@@ -79,6 +79,7 @@ body * {
   transform: translateY(-50%);
 
   animation: slide-back 0.2s;
+  transition: outline 0.3s;
 }
 
 .light #switch button {
@@ -165,6 +166,7 @@ footer {
   padding: 24px 0;
   text-align: center;
   font-size: 14px;
+  height: 100%;
 }
 
 /* media queries */
